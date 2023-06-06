@@ -45,3 +45,23 @@ int main(void)
 
     return 0;
 }
+// 実行結果
+// 初期2
+// 初期1
+// 初期5
+// 初期3
+// 初期7
+// i0 num[i]2 j1 num[i]2 num[j]1
+// tmp2 num[i]1 num[j]2
+// j2 num[i]1 num[j]5
+// j3 num[i]1 num[j]3
+// j4 num[i]1 num[j]7
+// i1 num[i]2 j2 num[i]2 num[j]5
+// j3 num[i]2 num[j]3
+// j4 num[i]2 num[j]7
+// i2 num[i]5 j3 num[i]5 num[j]3
+// tmp5 num[i]3 num[j]5
+// j4 num[i]3 num[j]7
+// i3 num[i]5 j4 num[i]5 num[j]7
+// i4 num[i]7 結果1 結果2 結果3 結果5 結果7
+// ./a.out  0.00s user 0.00s system 2% cpu 0.253 total
