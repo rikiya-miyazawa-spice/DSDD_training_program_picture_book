@@ -85,3 +85,8 @@ int main(void) {
     return 0;
 
 }
+// 実行速度
+//5 0 9 7 1 6 3 8 4 2
+//0 1 2 3 4 5 6 7 8 9
+//./a.out  0.00s user 0.00s system 62% cpu 0.006 total
+
